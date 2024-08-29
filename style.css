@@ -1,0 +1,323 @@
+/*Import font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.banner-wrapper {
+    background-image: url("./assets/netflixbackground.jpg");
+    height: 80vh;
+}
+
+ /* background for the sign-in page */
+.container {
+    background-image: url("./assets/netflixbackground.jpg");
+    height: 100vh;
+   
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    margin: 0 126.6px;
+}
+
+.overlay {
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.69);
+    border-bottom: 8px solid rgb(52, 52, 52);
+}
+
+/* overlay for the sign-in page */
+.sign-in-overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.logo {
+    width: 148px;
+    height: 40px;
+}
+
+.nav a {
+color: white;
+background-color: #C11119;
+text-decoration: none;
+padding: 8px 13px;
+border-radius: 5px;
+font-size: 15px;
+font-weight: 500;
+}
+
+.nav a:hover {
+    background-color: #9e0b13;
+    transition: 0.3s ease-in-out;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 119.600px 298px ;
+}
+
+.main-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-content p {
+    font-size: 24px;
+    margin-top: 24px;
+    font-weight: 400;
+}
+
+.main-content h3 {
+    margin-top: 24px;
+    font-size: 22px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form > input {
+    background-color: rgba(8, 8, 8, 0.5);
+    padding: 18px 16px;
+    height: 56px;
+    width: 370px;
+    font-size: 17px;
+    border: 1px solid #414141;
+    border-radius: 5px;
+}
+
+form > button {
+    padding: 12px 24px;
+    margin: 8px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    background-color: #e00f1a;
+    border: none;
+    border-radius: 5px;
+}
+
+form > button:hover {
+    background-color: #C11119;
+    cursor: pointer;
+}
+
+form > button > .material-symbols-outlined {
+    font-size: 40px;
+    color: white;
+}
+
+
+.info-container {
+   display: flex;
+   color: white;
+   padding: 70px 45px;
+   margin: 0 100px 0 150px;
+
+}
+
+.info-wrapper {
+    border-bottom: 8px solid rgb(52, 52, 52);
+    height: 80vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.info h1 {
+    font-size: 63px;
+    font-weight: 900;
+}
+
+.info p {
+    font-size: 21px;
+    font-weight: 400;
+    width: 500px;
+}
+
+.tv-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.tv-container img {
+    z-index: 1;
+}
+
+.tv-container video {
+    position: absolute;
+    z-index: 0;
+}
+
+footer {
+    margin: 50px 100px 50px 150px;
+    padding-bottom: 50px;
+}
+
+.footer-top p{
+    color: #A8AFA2;
+}
+
+.footer-top p a {
+    color: #A8AFA2;
+}
+
+.footer-items {
+    columns: 4;
+}
+
+.footer-items > ul > a {
+    color: #A8AFA2;
+    text-decoration: none;
+    list-style: none;
+    margin: 360px;
+    font-size: 14px;
+}
+
+.footer-items > ul > a:hover {
+    text-decoration: underline;
+}
+
+.languages {
+    margin: 50px 0 35px 0;
+    
+}
+
+.languages > select {
+    padding: 6px 36px 6px 36px;
+    background-color: rgba(8, 8, 8, 0.5);
+    color: #A8AFA2;
+    border-radius: 4px;
+}
+.copyright {
+    color: #A8AFA2;
+}
+
+/* styling for the sign-page */
+.signin {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 48px 68px 500px 68px;
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 450px;
+    border-radius: 5px;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 28px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-section input {
+    margin-top: 15px;
+    width: 315px;
+}
+
+.input-section button {
+    margin-top: 17px;
+    width: 314px;
+    height: 40px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    
+    
+}
+
+.input-section P {
+    color: #A8AFA2;
+    margin: 10px 0 10px 0;
+}
+
+form .code {
+ background-color: rgba(100, 95, 95, 0.7); 
+ text-align: center;
+}
+
+form .code:hover {
+   background-color: rgba(69, 65, 65, 0.7);
+}
+
+form a {
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    color: #A8AFA2;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+    color: #A8AFA2;
+}
+
+.rememberMe input {
+    width: 20px;
+    margin: 0 12px 0 0;
+    padding: 0;
+    border: none;
+}
+
+.form-footer span {
+    font-weight: 600;
+    color: white;
+}
+
+.form-footer span:hover {
+    text-decoration: underline;
+}
+
+.form-footer .recaptcha {
+    margin: 15px 0 ;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.form-footer .recaptcha span {
+    color: blue;
+    font-weight: 300;
+}
+
+.signin-footer {
+    margin: 200px;
+}
